@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // Redirect to the donation form page if accessed directly
-    header("Location: donate.html");
+    header("Location: index.html");
     exit;
 }
 ?>
